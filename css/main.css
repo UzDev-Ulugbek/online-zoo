@@ -855,7 +855,7 @@ body {
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 300px) {
   .site__hero {
     height: 700px;
   }
@@ -872,11 +872,11 @@ body {
   }
   .section__three {
     background-size: cover;
-    max-width: 340px;
+    max-width: 290px;
     margin-top: 100px;
   }
   .section__four-list-container {
-    max-width: 310px;
+    max-width: 290px;
     width: 100%;
   }
   .icons-container {
