@@ -605,7 +605,33 @@ body {
 }
 .site__footer {
   width: 100%;
-  background-color:#19707d;
+  background-color: #19707d;
+  padding-block: 17px;
+  margin-top: 50px;
+}
+.home-links-container {
+  display: flex;
+  align-items: center;
+}
+.home-links-container img {
+  margin-right: 30px;
+}
+
+.text-box {
+  margin-left: auto;
+  text-align: end;
+  max-width: 420px;
+}
+
+.text-box p {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 100%;
+  font-family: "Roboto";
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 8px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -824,6 +850,9 @@ body {
   .arrow-wrapper {
     transform: translateY(-130px);
   }
+  .footerlist {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 340px) {
@@ -936,5 +965,13 @@ body {
   }
   .animals-lists-icons {
     flex-direction: row;
+  }
+  .home-links-container img {
+    /* margin-right: 30px; */
+    width: 50px;
+  }
+  .text-box p {
+    font-size: 10px;
+    margin-bottom: 4px;
   }
 }
